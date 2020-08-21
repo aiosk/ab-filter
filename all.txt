@@ -12,8 +12,13 @@
 ||kaskus.co.id/recommendation/*$1p
 ||microsite.kaskus.co.id^$1p
 
+kaskus.co.id###podcastGlobalWidgetContainer
+kaskus.co.id##.jsHeaderSeparator:style(padding-top: 5rem !important)
+kaskus.co.id##.jsNoticeDisplay
+
 ! kompas.com
 ||ivideosmart.com^
+
 www.kompas.com##.bapps:style(display:none !important;visibility:hidden !important)
 www.kompas.com##.bapps-show .content_article:style(padding-top:55px !important)
 www.kompas.com##.bapps-show .header:style(top:0 !important)
