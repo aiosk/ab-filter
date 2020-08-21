@@ -1,0 +1,19 @@
+! Title: AIOS filters
+! Expires: 4 days
+! Description: AIOS privacy + annoyances filters
+! Homepage: https://github.com/aiosk/ab-filter
+! Issue tracker: https://github.com/aiosk/ab-filter/issues
+
+! kaskus.co.id
+||s.kaskus.id/*/user/avatar/*$image,domain=kaskus.co.id
+||s.kaskus.id/images/smilies/*$image,domain=kaskus.co.id
+||kaskus.id/*/kaskus-podcast/js/*$domain=kaskus.co.id
+||kaskus.id/kaskus-tv/embed-resources/*$domain=kaskus.co.id
+||kaskus.co.id/recommendation/*$1p
+||microsite.kaskus.co.id^$1p
+
+! kompas.com
+||ivideosmart.com^
+
+! tokopedia.com
+||tokopedia.com/*/pixel$1p
