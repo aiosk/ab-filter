@@ -24,6 +24,7 @@ kompas.com##.bapps-show .content_article:style(padding-top:55px !important)
 kompas.com##.bapps-show .header:style(top:0 !important)
 kompas.com##.bapps-show .new-sub-menu:style(top:55px !important)
 kompas.com##.banner__belt
+kompas.com##.voucher__banner
 
 ! tokopedia.com
 ||tokopedia.com/*/pixel$1p
