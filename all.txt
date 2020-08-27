@@ -26,9 +26,10 @@ kaskus.co.id##.jsNoticeDisplay
 kompas.com##.banner__belt
 kompas.com##.voucher__banner
 
-! 2020-08-27 kompas.com
 ||kompas.com/*/js/auto*next*.js$script
 ||kompas.com/api/next_previous*$xhr,1p
+
+||kompas.com/*/pickwords/*$subdocument,1p
 
 ! tokopedia.com
 ||tokopedia.com/*/pixel$1p
