@@ -19,18 +19,14 @@ kaskus.co.id##.jsNoticeDisplay
 ! kompas.com
 ||ivideosmart.com^
 
-!kompas.com##.bapps:style(display:none !important;visibility:hidden !important)
-!kompas.com##.bapps-show .content_article:style(padding-top:55px !important)
-!kompas.com##.bapps-show .header:style(top:0 !important)
-!kompas.com##.bapps-show .new-sub-menu:style(top:55px !important)
-kompas.com##.banner__belt
-kompas.com##.voucher__banner
+||kompas.com/*/mobile/js/*$script,1p
+!kompas.com##.banner__belt
+!kompas.com##.voucher__banner
 
-||kompas.com/*/js/auto*next*.js$script
-||kompas.com/api/next_previous*$xhr,1p
-||kompas.com/*/pickwords/*$subdocument,1p
-||kompas.com/api/related$xhr,1p
-||kompas.com/api/comment/widget$xhr,1p
+!||kompas.com/api/next_previous*$xhr,1p
+!||kompas.com/*/pickwords/*$subdocument,1p
+!||kompas.com/api/related$xhr,1p
+!||kompas.com/api/comment/widget$xhr,1p
 
 ! tokopedia.com
 ||tokopedia.com/*/pixel$1p
