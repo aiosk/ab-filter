@@ -20,13 +20,13 @@ kaskus.co.id##.jsNoticeDisplay
 ||ivideosmart.com^
 
 ||kompas.com/*/mobile/js/*$script,1p
-!kompas.com##.banner__belt
-!kompas.com##.voucher__banner
+kompas.com##.banner__belt
+kompas.com##.voucher__banner
 
 !||kompas.com/api/next_previous*$xhr,1p
-!||kompas.com/*/pickwords/*$subdocument,1p
-!||kompas.com/api/related$xhr,1p
-!||kompas.com/api/comment/widget$xhr,1p
+||kompas.com/*/pickwords/*$subdocument,1p
+||kompas.com/api/related$xhr,1p
+||kompas.com/api/comment/widget$xhr,1p
 
 ! tokopedia.com
 ||tokopedia.com/*/pixel$1p
