@@ -1,10 +1,10 @@
-! Title: AIOS filters
-! Expires: 4 days
-! Description: AIOS privacy + annoyances filters
-! Homepage: https://github.com/aiosk/ab-filter
-! Issue tracker: https://github.com/aiosk/ab-filter/issues
+!! Title: AIOS filters
+!! Expires: 4 days
+!! Description: AIOS privacy + annoyances filters
+!! Homepage: https://github.com/aiosk/ab-filter
+!! Issue tracker: https://github.com/aiosk/ab-filter/issues
 
-! kaskus.co.id
+!! kaskus.co.id
 ||s.kaskus.id/*/user/avatar/*$image,domain=kaskus.co.id
 ||s.kaskus.id/images/smilies/*$image,domain=kaskus.co.id
 ||kaskus.id/*/kaskus-podcast/js/*$domain=kaskus.co.id
@@ -16,20 +16,22 @@ kaskus.co.id###podcastGlobalWidgetContainer
 kaskus.co.id##.jsHeaderSeparator:style(padding-top: 5rem !important)
 kaskus.co.id##.jsNoticeDisplay
 
-! kompas.com
+!! kompas.com
 ||ivideosmart.com^
 
 ||kompas.com/*/mobile/js/*$script,1p
 kompas.com##.banner__belt
 kompas.com##.voucher__banner
-
 !||kompas.com/api/next_previous*$xhr,1p
 ||kompas.com/*/pickwords/*$subdocument,1p
 ||kompas.com/api/related$xhr,1p
 ||kompas.com/api/comment/widget$xhr,1p
+kompas.com##.comment
+kompas.com##.cm__widget
+kompas.com##.pop-title:has-text(komentar)
 
-! tokopedia.com
+!! tokopedia.com
 ||tokopedia.com/*/pixel$1p
 
-! 9gag.com
+!! 9gag.com
 9gag.com##.salt-container
