@@ -19,8 +19,8 @@ kaskus.co.id##.jsNoticeDisplay
 !! kompas.com
 ||ivideosmart.com^
 
-!||kompas.com/*/mobile/js/*$script,1p
-||kompas.com/*/js/main*.js$script,1p
+kompas.com##+js(aopr, Smartbanner)
+kompas.com##+js(aopr, observer_tap)
 
 kompas.com##.kid__wrap
 kompas.com##.banner__belt
