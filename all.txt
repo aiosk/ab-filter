@@ -7,14 +7,17 @@
 !! kaskus.co.id
 ||s.kaskus.id/*/user/avatar/*$image,domain=kaskus.co.id
 ||s.kaskus.id/images/smilies/*$image,domain=kaskus.co.id
-||kaskus.id/*/kaskus-podcast/js/*$domain=kaskus.co.id
-||kaskus.id/kaskus-tv/embed-resources/*$domain=kaskus.co.id
-||kaskus.co.id/recommendation/*$1p
-||microsite.kaskus.co.id^$1p
 
-kaskus.co.id###podcastGlobalWidgetContainer
-kaskus.co.id##.jsHeaderSeparator:style(padding-top: 5rem !important)
-kaskus.co.id##.jsNoticeDisplay
+||kapten.id^$subdocument,domain=kaskus.co.id
+||podcast.kaskus.co.id^$subdocument,1p
+||tv.kaskus.co.id^$subdocument,1p
+
+kaskus.co.id##+js(aopr, MICROSITE_URL)
+kaskus.co.id##+js(acis, getRecommendedThread)
+
+!kaskus.co.id###podcastGlobalWidgetContainer
+!kaskus.co.id##.jsHeaderSeparator:style(padding-top: 5rem !important)
+!kaskus.co.id##.jsNoticeDisplay
 
 !! kompas.com
 ||ivideosmart.com^
