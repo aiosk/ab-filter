@@ -17,6 +17,7 @@ kaskus.co.id###podcastGlobalWidgetContainer
 
 !! kompas.com
 ||ivideosmart.com^
+||widget.kompas.com/hoaks/*$subdocument,1p
 
 kompas.com##+js(aopr, Smartbanner)
 ||kompas.com/*/js/auto*next*.js$script,1p
