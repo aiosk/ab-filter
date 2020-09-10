@@ -13,7 +13,6 @@
 ||tv.kaskus.co.id^$subdocument,1p
 
 kaskus.co.id##+js(aopr, MICROSITE_URL)
-kaskus.co.id##+js(acis, getRecommendedThread)
 
 kaskus.co.id###podcastGlobalWidgetContainer
 !kaskus.co.id##.jsHeaderSeparator:style(padding-top: 5rem !important)
