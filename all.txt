@@ -8,11 +8,8 @@
 ||s.kaskus.id/*/user/avatar/*$image,domain=kaskus.co.id
 ||s.kaskus.id/images/smilies/*$image,domain=kaskus.co.id
 
-||kapten.id^$subdocument,domain=kaskus.co.id
-||podcast.kaskus.co.id^$subdocument,1p
-||tv.kaskus.co.id^$subdocument,1p
-
-kaskus.co.id##+js(aopr, MICROSITE_URL)
+kaskus.co.id##+js(aopr, KASKUSTV_CDN_URL)
+kaskus.co.id##+js(aopr, MICROSITE_CDN_URL)
 
 kaskus.co.id###podcastGlobalWidgetContainer
 !kaskus.co.id##.jsHeaderSeparator:style(padding-top: 5rem !important)
@@ -22,7 +19,6 @@ kaskus.co.id###podcastGlobalWidgetContainer
 ||ivideosmart.com^
 
 kompas.com##+js(aopr, Smartbanner)
-kompas.com##+js(aopr, observer_tap)
 ||kompas.com/*/js/auto*next*.js$script,1p
 
 kompas.com##.kid__wrap
